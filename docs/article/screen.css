@@ -434,6 +434,8 @@ outline: 0;
   font-size: 1.4rem;
   letter-spacing: 0.1em;
   line-height: 2.167;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .home-profile-p {

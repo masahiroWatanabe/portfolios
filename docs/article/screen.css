@@ -99,19 +99,6 @@ outline: 0;
   color: #000;
 }
 
-@font-face {
-  font-family: 'md-serif';
-  src:url('../font/md-serif.woff') format('woff'),
-      url('../font/md-serif.ttf') format('truetype');
-}
-
-/*@end*/
-
-/*@structure*/
-
-/*@end*/
-
-/*@module */
 
 .column {
   zoom: 1;
@@ -1096,11 +1083,7 @@ body.home .wp-post-image {
 
 .home-profile {
   box-sizing: border-box;
-  background-image: url('../img/home/fig-profile.png');
   padding: 0;
-  background-size: 640px 417px;
-  background-attachment: fixed;
-  background-position: center 0;
 }
 
 .home-profile-container {
@@ -1112,10 +1095,6 @@ body.home .wp-post-image {
 
 #section-home-contact {
   padding: 0;
-  background-image: url('../img/home/fig-contact.png');
-  background-size: 640px 417px;
-  background-attachment: fixed;
-  background-position: center 0;
 }
 
 .home-contact-container {
@@ -1633,7 +1612,6 @@ body.is-show {
 	width: 35px;
 	height: 30px;
 	display: block;
-	background-image: url('../img/univ/fig-transparent.png');
 }
 .menu-trigger span {
 	position: absolute;

@@ -113,6 +113,14 @@ outline: 0;
   /*display: none;*/
 }
 
+h2 {
+    font-size:22px;
+    margin:15px 0 30px;
+    text-align:center;
+    border-bottom:1px solid #ccc;
+    padding-bottom:20px;
+}
+
 .blur {
   -webkit-filter: blur(10px);
   -moz-filter: blur(10px);
@@ -375,7 +383,7 @@ outline: 0;
   font-style: italic;
 }
 
-.work-title h2 {
+.work-title h3 {
   margin-bottom: 0.2em;
   padding: 0 0.5em;
   font-size: 16px;
@@ -385,7 +393,7 @@ outline: 0;
   line-height: 1.5;
 }
 
-.work-title h2.jpn {
+.work-title h3.jpn {
   font-family: serif;
   font-style: normal;
 }
@@ -1529,29 +1537,6 @@ body.home .wp-post-image {
   background-position: center top;
 }
 
-.category-yama .blog-category-post-list {
-  background-image: url('../img/blog/bg-category-a.png');
-}
-
-.category-hatake .blog-category-post-list {
-  background-image: url('../img/blog/bg-category-b.png');
-}
-
-.category-ie .blog-category-post-list {
-  background-image: url('../img/blog/bg-category-c.png');
-}
-
-.category-tabemono .blog-category-post-list {
-  background-image: url('../img/blog/bg-category-d.png');
-}
-
-.category-hito .blog-category-post-list {
-  background-image: url('../img/blog/bg-category-e.png');
-}
-
-.category-sonohoka .blog-category-post-list {
-  background-image: url('../img/blog/bg-category-f.png');
-}
 
 /**/
 
@@ -1709,6 +1694,9 @@ body.is-show {
 @media print,screen and (max-width: 768px) {
     .pc-univ-header {
       display: none;
+    }
+    .work-content {
+        width:49%;
     }
 }
 
